@@ -6,6 +6,9 @@
 #include <QtSql>
 #include <QFileInfo>
 #include <QDebug>
+#include <QTime>
+#include <QTimer>
+#include "editar.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MyTodo; }
@@ -31,6 +34,10 @@ private slots:
     void on_actionSair_triggered();
 
     void on_actionSobre_triggered();
+
+    void on_pushButton_clicked();
+
+    void on_tableWidget_cellClicked(int row, int column);
 
 private:
     Ui::MyTodo *ui;

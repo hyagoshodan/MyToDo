@@ -48,7 +48,7 @@
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>22</height>
+     <height>21</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuArquivo">
@@ -92,7 +92,7 @@
   <action name="actionSobre">
    <property name="icon">
     <iconset resource="assets/assets.qrc">
-     <normaloff>:/uicons-regular-rounded/svg/fi-rr-comment-info.svg</normaloff>:/uicons-regular-rounded/svg/fi-rr-comment-info.svg</iconset>
+     <normaloff>:/uicons-regular-rounded/svg/fi-rr-exclamation.svg</normaloff>:/uicons-regular-rounded/svg/fi-rr-exclamation.svg</iconset>
    </property>
    <property name="text">
     <string>Sobre</string>
